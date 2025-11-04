@@ -1,0 +1,38 @@
+:root {
+  --pst-color-primary: #7E57C2; /* Medium purple */
+  --pst-color-secondary: #B39DDB;
+  --pst-color-accent: #9575CD;
+}
+
+/* Link and heading colors */
+a {
+  color: var(--pst-color-primary);
+}
+a:hover {
+  color: var(--pst-color-accent);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--pst-color-primary);
+}
+
+/* Navbar and buttons */
+.bd-navbar {
+  background-color: var(--pst-color-primary);
+}
+
+button, .btn {
+  background-color: var(--pst-color-primary);
+  color: white;
+  border: none;
+}
+
+button:hover, .btn:hover {
+  background-color: var(--pst-color-accent);
+}
+
+html[data-theme="dark"] {
+  --pst-color-primary: #b388ff;
+  --pst-color-secondary: #d1c4e9;
+  --pst-color-accent: #ce93d8;
+}

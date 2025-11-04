@@ -1,14 +1,29 @@
 version: 1
 project:
-  title: My Awesome Book
-  authors:
-    - name: Your Name
+  title: Threat Hunting Book
+  authors: 'PeterEdtu'
   copyright: '2025'
   github: PeterEdtu/peteredtu.github.io
   toc:
-    - file: intro.md
-    - file: notebooks/demo.ipynb
+    - file: docs/index.md
+    - title: WhoAmI
+      children:
+        - file: docs/whoami/aboutme.md
+        - file: docs/whoami/contact.md
+    - title: Hunts
+      children:
+        - file: docs/hunts/hunt_1.md
+    #- file: notebooks/demo.ipynb
 site:
+  template: book-theme
+  #nav: []
+  #actions:
+  #  - title: Learn More
+  #    url: https://mystmd.org/guide
+  #domains: []
   options:
     folders: true
-  template: book-theme
+    hide_navbar: true
+    hide_footer_links: true
+    hide_toc: false
+    hide_outline: false
