@@ -1,0 +1,14 @@
+version: 1
+project:
+  title: My Awesome Book
+  authors:
+    - name: Your Name
+  copyright: '2025'
+  github: PeterEdtu/peteredtu.github.io
+  toc:
+    - file: intro.md
+    - file: notebooks/demo.ipynb
+site:
+  options:
+    folders: true
+  template: book-theme
