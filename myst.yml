@@ -10,6 +10,9 @@ project:
       children:
         - file: docs/whoami/aboutme.md
         - file: docs/whoami/contact.md
+    - title: Malware Analysis 101
+      children:
+        - file: docs/malware_analysis/ma_windows_binary_part1.md
     - title: Hunts
       children:
         - file: docs/hunts/hunt_1.md
